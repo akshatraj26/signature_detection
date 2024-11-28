@@ -1,0 +1,16 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>Prediction: {{ prediction }}</p>
+    <img src="{{ uploaded_file_path }}" alt="Uploaded Image">
+    <!-- <a href="{% url 'upload_image' %}">Upload another image</a> -->
+    <a href="{% url 'index' %}">Go back</a>
+</body>
+</html>

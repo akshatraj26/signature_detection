@@ -1,0 +1,7 @@
+env/
+__pycache__/model.cpython-312.pyc
+training/Dataset_Signature_Final.zip
+config/signature_detection/models/final_signature_detection.pth
+config/config/__pycache__/
+config/signature_detection/__pycache__/
+config/signature_detection/migrations/__pycache__/
